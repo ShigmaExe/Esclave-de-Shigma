@@ -22,4 +22,4 @@ client.on("ready", () => {
     .catch(console.error);
 });
 
-client.login("NDI5OTkxNzk1NDI2OTgzOTM2.XkBxcQ.FzTTFGB8p2X38bzFqXCnuw00IIY");
+client.login(process.env.TOKEN);
